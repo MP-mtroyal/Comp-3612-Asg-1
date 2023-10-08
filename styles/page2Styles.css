@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+header.main{
+    background-color: var(--color-primary-1-800);
+    color: var(--color-primary-1-050);
+    text-align: center;
+    font-size: 30px;
+    margin: 5vw;
+    margin-bottom: 2vw;
+    padding: 10px;
+}
+
+section{
+    background-color: var(--color-neutral-100);
+}
+
+section.paintings, section.search, section.bottom{
+    margin: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+li, p{
+    display: inline-block;
+}
+
+input.search{
+    margin: 2vw;
+}
+
+select#categoriesDropdown{
+    padding: 5px;
+}
+
+header.paintings{
+    background-color: var(--color-primary-1-600);
+    color: var(--color-primary-1-050);
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+}
+
+div.categories{
+    background-color: var(--color-primary-1-050);
+    height: 22px;
+}
+
+.paintings p{
+    text-align: center;
+    padding: 0;
+    margin: 2;
+}
+
+.paintings p.title{
+    width: 40vw;
+}
+.paintings p.artist{
+    width: 15vw;
+    text-align: left;
+}
+.paintings p.year{
+    width: 5vw;
+    text-align: left;
+}
+.paintings p.genre{
+    width: 8vw;
+    text-align: left;
+}
+.paintings p.actions{
+    width: 12vw;
+    text-align: left;
+}
+section.painting-item{
+    border: 1px;
+    border-style: solid;
+    border-color: var(--color-neutral-200);
+    min-width: 88vw;
+    margin: 0;
+    padding: 0;
+    height: 11vw;
+    font-size: 14px;
+}
+img{
+    width: 9vw;
+    padding-top: 10px;
+    float: left;
+}
+input[type="checkbox"]{
+    height: 10.5vw;
+    padding-top: 0px;
+    float: left;
+    width: 1vw;
+}
+
+section.painting-item p{
+    float: left;
+    padding-top: 4vw;
+    text-align: left;
+}
+
+section.painting-item p.title{
+    width: 30vw;
+    text-align: center;
+}
+
+section.painting-item p.artist{
+    width: 15vw;
+}
+
+section.painting-item p.year{
+    width: 5vw;
+}
+
+section.painting-item p.genre{
+    width: 8vw;
+}
+
+
+button.action img{
+    width: 2.5vw;
+}
+
+button.action{
+    margin-top: 3vw;
+    border: 1px;
+    border-style: solid;
+}
+
+button.action.edit{
+    background-color: var(--color-primary-1-200);
+}
+
+select#actionsDropdown{
+    margin: 10px;
+    min-height: 35px;
+    border: 0;
+}
+
+button.apply{
+    min-height: 35px;
+    background-color: var(--color-primary-1-400);
+    border: 0;
+    color: var(--color-neutral-100);
+}

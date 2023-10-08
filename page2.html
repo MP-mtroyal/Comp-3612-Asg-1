@@ -1,0 +1,140 @@
+<html lang="en">
+<link rel="stylesheet" href="styles/page2Styles.css">
+<link rel="stylesheet" href="styles/variables-palette-7.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+</head>
+<!DOCTYPE html>
+<!--Comp 3612: Assignment 1 - Morgan Payette-->
+<body>
+    <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+    <header class="main">Advanced Art Work Search</header>
+    <section class="search">
+        <input 
+            type="search" 
+            placeholder="Portrait"
+            class="search"
+            name="search"
+        />
+        <li>
+            <p>Subject:</p>
+            <input type="radio" name="subject" id="history" value="History">
+            <p>History</p>
+            <input type="radio" name="subject" id="person" value="Person">
+            <p>Person</p>
+            <input type="radio" name="subject" id="landscape" value="Landscape">
+            <p>Landscape</p>
+            <select name="filter" id="categoriesDropdown">
+                <option value=0>Neo-Classical</option>
+                <option value=1>Baroque</option>
+                <option value=2>Renaissance</option>
+                <option value=3>Realism</option>
+            </select>
+        </li>
+    </section>
+    <section class="paintings">
+        <header class="paintings">Paintings</header>
+        <div class="categories">
+            <p class="title">Title</p>
+            <p class="artist">Artist</p>
+            <p class="year">Year</p>
+            <p class="genre">Genre</p>
+            <p class="actions">Actions</p>
+        </div>
+        <section class="painting-list">
+            <li>
+                <section class="painting-item">
+                    <input type="checkbox" name="index[]" value="10">
+                    <img src="images/125010.jpg" alt="">
+                    <p class="title">Portrait of Alvda Christine Assink</p>
+                    <p class="artist">Kruseman, Jan</p>
+                    <p class="year">1833</p>
+                    <p class="genre">Realism</p>
+                    <div class="action">
+                        <button class="action edit" type="button">
+                            <img src="/images/edit.png" alt="edit">
+                        </button>
+                        <button class="action archieve" type="button">
+                            <img src="/images/archive.png" alt="edit">
+                        </button>
+                        <button class="action delete" type="button">
+                            <img src="/images/delete.png" alt="delete">
+                        </button>
+                    </div>
+                </section>
+                <section class="painting-item">
+                    <input type="checkbox" name="index[]" value="20">
+                    <img src="images/125020.jpg" alt="">
+                    <p class="title">Portrait of William N King of the Netherlands</p>
+                    <p class="artist">Kruseman, Jan</p>
+                    <p class="year">1839</p>
+                    <p class="genre">Realism</p>
+                    <div class="action">
+                        <button class="action edit" type="button">
+                            <img src="/images/edit.png" alt="edit">
+                        </button>
+                        <button class="action archieve" type="button">
+                            <img src="/images/archive.png" alt="edit">
+                        </button>
+                        <button class="action delete" type="button">
+                            <img src="/images/delete.png" alt="delete">
+                        </button>
+                    </div>
+                </section>
+                <section class="painting-item">
+                    <input type="checkbox" name="index[]" value="30">
+                    <img src="images/130020.jpg" alt="">
+                    <p class="title">Three girls from the Amsterdam Orphanage</p>
+                    <p class="artist">Schwartze, Therese</p>
+                    <p class="year">1885</p>
+                    <p class="genre">Realism</p>
+                    <div class="action">
+                        <button class="action edit" type="button">
+                            <img src="/images/edit.png" alt="edit">
+                        </button>
+                        <button class="action archieve" type="button">
+                            <img src="/images/archive.png" alt="edit">
+                        </button>
+                        <button class="action delete" type="button">
+                            <img src="/images/delete.png" alt="delete">
+                        </button>
+                    </div>
+                </section>
+                <section class="painting-item">
+                    <input type="checkbox" name="index[]" value="40">
+                    <img src="images/127010.jpg" alt="">
+                    <p class="title">Portrait of Alvda Christine Assink</p>
+                    <p class="artist">Ruisdad, Jacob Van</p>
+                    <p class="year">1870</p>
+                    <p class="genre">Dutch Golden Age</p>
+                    <div class="action">
+                        <button class="action edit" type="button">
+                            <img src="/images/edit.png" alt="edit">
+                        </button>
+                        <button class="action archieve" type="button">
+                            <img src="/images/archive.png" alt="edit">
+                        </button>
+                        <button class="action delete" type="button">
+                            <img src="/images/delete.png" alt="delete">
+                        </button>
+                    </div>
+                </section>
+            </li>
+        </section>
+    </section>
+    <section class="bottom">
+        <select name="actions" id="actionsDropdown">
+            <option value=0>Archive</option>
+            <option value=1>Edit</option>
+            <option value=2>Delete</option>
+            <option value=3>Collection</option>
+        </select>
+        <button class="apply">
+            Apply To All
+        </button>
+    </section>
+</form>
+</body>
+</html>

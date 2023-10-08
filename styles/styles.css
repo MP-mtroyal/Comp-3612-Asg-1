@@ -1,0 +1,115 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-color: lightblue;
+    width: 910px;
+}
+section#cards{
+    background-color: lightblue;
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+}
+section#tail{
+    background-color: #2f4f4f;
+    padding: 25px;
+    margin-top: 50px;
+    text-align: left;
+    color: white;
+}
+
+header#title{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 25px;
+}
+div header{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+div{
+    font-size: 18px;
+}
+
+div.card{
+    display: inline-block;
+    width: 300px;
+}
+
+div#budget{
+    background-color: white;
+}
+div#standard{
+    background-color: #2f4f4f;
+    color: white;
+}
+div#scholarship{
+    background-color: white;
+}
+
+div.label p{
+    display: inline-block;
+}
+
+div.card p.prefix{
+    font-weight: 800;
+}
+
+div.card p.postfix{
+    color: rgba(47, 59, 64, 0.35);
+}
+
+div#standard p.postfix{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+div.price p.prefix{
+    font-size: 36px;
+}
+
+div#budget div.price{background-color: #5BB189;}
+div#standard div.price{background-color: #4b0082;}
+div#scholarship div.price{background-color: #ec632a;}
+
+button{
+    background-color: #3a6ba5;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+    font-size: 18px;
+    border: 0;
+    box-shadow: 2px 2px 2px grey;
+}
+button:hover{
+    background-color: #437cbf;
+}
+
+li{
+    list-style-type: none;
+}
+
+div.label:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+section#tail header{
+    font-size: 36px;
+    font-weight: 400;
+    padding: 0;
+}
+
+p#tailDetails{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+li#tailInfo{
+    font-size: 18px;
+    list-style-type: none;
+}
+
+img.checkmark{
+    width: 24px;
+}
